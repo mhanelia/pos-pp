@@ -1,0 +1,33 @@
+# Ignorar arquivos de configuração IDE
+.idea/
+*.iml
+
+# Dependências Maven
+target/
+
+# Arquivos de configuração Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Arquivos de configuração Gradle
+.gradle
+build/
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de log
+*.log
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos ignorados por padrão pelo git
+.gitignore
